@@ -1,6 +1,5 @@
-import * as React from "react";
 import { useState } from "react";
-import { DataGrid } from "@mui/x-data-grid";
+import { DataGridPro } from "@mui/x-data-grid-pro";
 
 import { StyledEngineProvider } from "@mui/material/styles";
 
@@ -98,7 +97,7 @@ const GridExample = () => {
         <div
           style={{ height: "500px", width: "100vw", background: "white" }} // the grid will fill the size of the parent container
         >
-          <DataGrid
+          <DataGridPro
             getRowId={getRowId}
             rows={rowData}
             columns={colDefs}
