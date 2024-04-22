@@ -6,14 +6,15 @@ import { StyledEngineProvider } from "@mui/material/styles";
 const genColumns = [
   ...Array.from({ length: 100 }, (_, i) => ({
     field: `col-${i}`,
+    width: 200,
   })),
 ];
 
 const columns = [
-  { field: "id" },
-  { field: "make" },
-  { field: "model" },
-  { field: "price" },
+  { field: "id", width: 200 },
+  { field: "make", width: 200 },
+  { field: "model", width: 200 },
+  { field: "price", width: 200 },
 
   // generate 100 more columns
   ...genColumns,
