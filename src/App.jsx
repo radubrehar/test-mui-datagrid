@@ -102,6 +102,8 @@ const GridExample = () => {
             rows={rowData}
             columns={colDefs}
             rowHeight={18}
+            rowBufferPx={0}
+            columnBufferPx={0}
           />
         </div>
       </div>
